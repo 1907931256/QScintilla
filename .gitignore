@@ -1,7 +1,10 @@
+Makefile
 *.obj
 *.o
 *.exe
+*.dylib
+moc_*.cpp
+.qmake.stash
 
 .vscode/
 
-Makefile
