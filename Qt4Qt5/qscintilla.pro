@@ -20,7 +20,7 @@
 
 # This must be kept in sync with Python/configure.py, Python/configure-old.py,
 # example-Qt4Qt5/application.pro and designer-Qt4Qt5/designer.pro.
-!win32:VERSION = 13.0.0
+!win32:VERSION = 13.1.0
 
 TEMPLATE = lib
 CONFIG += qt warn_off thread exceptions hide_symbols
@@ -275,7 +275,7 @@ SOURCES = \
 	../lexers/LexBash.cpp \
 	../lexers/LexBasic.cpp \
 	../lexers/LexBatch.cpp \
-	../lexers/LexBibTex.cpp \
+	../lexers/LexBibTeX.cpp \
 	../lexers/LexBullant.cpp \
 	../lexers/LexCaml.cpp \
 	../lexers/LexCLW.cpp \
@@ -309,7 +309,7 @@ SOURCES = \
 	../lexers/LexJSON.cpp \
 	../lexers/LexKix.cpp \
 	../lexers/LexKVIrc.cpp \
-	../lexers/LexLaTex.cpp \
+	../lexers/LexLaTeX.cpp \
 	../lexers/LexLisp.cpp \
 	../lexers/LexLout.cpp \
 	../lexers/LexLua.cpp \
